@@ -15,7 +15,9 @@ const frasiIspirazionali = [
     "Non essere una 'se-potessi-sarei o una se-volessi-potrei-essere'. Sii e basta. (Sarah Ban Breathnach)",
     "Il mio scopo nella vita? Fare solo cose positive. (Zendaya)",
     "Prima ti ignorano, poi ti deridono, poi ti combattono. Poi vinci. (Mahatma Gandhi)",
-    ""
+    "Non è mai troppo tardi per essere ciò che avresti voluto essere (George Eliot)",
+    "È nel momento delle decisioni che si plasma il tuo destino.” – Anthony Robbins",
+    "Niente è davvero difficile se lo si divide in tanti piccoli pezzettini. Henry Ford"
 ]
 
 // funzione per scrivere in html
