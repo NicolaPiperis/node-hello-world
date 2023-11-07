@@ -20,6 +20,10 @@ const frasiIspirazionali = [
     "Niente è davvero difficile se lo si divide in tanti piccoli pezzettini. Henry Ford"
 ]
 
+function numeroCasualeDa0A9() {
+    return Math.floor(Math.random() * 10); // Genera un numero casuale da 0 a 9
+  }
+
 // funzione per scrivere in html
 function htmlResponse(res, content) {
     res.writeHead(200, { "Content-Type": "text/html" });
@@ -38,7 +42,7 @@ const server = http.createServer(function (req, res){
 
     // oppure direttamente tramite funzione
     htmlResponse(res, `<h1>Il server funziona!</h1>
-    Il codice &egrave; ${process.env.CODICE} `
+    Il codice &egrave; ${process.env.CODICE} <h1> ${frasiIspirazionali[numeroCasualeDa0A9()]} </h1> `
     );
 
 
